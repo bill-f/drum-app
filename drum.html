@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">     <!--css.css document-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- font-awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script> <!--bar-->
+</head>
+<style>
+  body {
+   background: #111;
+   font-family: "Open Sans",  Impact;
+  }
+</style>
+
+
+<body>
+  <div class="container">
+    <h2 style="font-size:250%"><br>The Drum Kit</h2>
+  </div>
+  <br><Br><br>
+  <div class="container animation">
+    <div class="row">
+      <button onclick="playAudio('music/test.mp3')" class="w button col" style="background: #fa3c3c">w</button>
+      <button onclick="playAudio('music/cymbal.mp3')" class="a button col" style="background: #fac43c">a</button>
+      <button onclick="playAudio('music/floor.mp3')" class="s button col" style="background: #a1fa3c">s</button>
+
+      </div>
+    <div class="row">
+      <button onclick="playAudio('music/sticks.mp3')" class="d button col" style="background: #31f7b9">d</button>
+      <button onclick="playAudio('music/snare.mp3')" class="q button col" style="background: #3145f7">q</button>
+      <button onclick="playAudio('music/hihat.mp3')" class="e button col" style="background: #f238f5">e</button>
+
+    </div>
+
+  </div>
+
+  <script src="drum.js"></script>
+
+
+</body>
+
+</html>
